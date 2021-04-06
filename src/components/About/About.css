@@ -1,0 +1,52 @@
+.aboutsection {
+  background-color: #3c2a96 !important;
+  clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);
+  padding: 100px;
+}
+.text-center {
+  text-align: center;
+}
+.heading-section {
+  color: rgb(248, 246, 246);
+}
+.heading-section h1.big {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  font-size: 7vw;
+  color: rgba(41, 41, 41, 0.123);
+  z-index: -1;
+  font-weight: 900;
+}
+
+.heading-section h2 {
+  font-size: 4rem !important;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+
+  color: rgb(248, 244, 244);
+  padding-top: 2rem;
+}
+.heading-section .h2:hover {
+  cursor: pointer;
+}
+.heading-section .p {
+  color: #f5f4f4;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin-right: 2rem;
+}
+.imgabout {
+  border-radius: 7px !important;
+  padding-left: 2rem;
+}
+@media screen and (max-width: 700px) {
+  .heading-section h1.big {
+    display: none;
+  }
+  .imgabout {
+    width: 300px;
+    padding-left: 0;
+  }
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="1800" height="100" preserveAspectRatio="none" viewBox="0 0 1800 100">
+    <g mask="url(&quot;#SvgjsMask1174&quot;)" fill="none">
+        <path d="M 0,26 C 72,34.6 216,70.6 360,69 C 504,67.4 576,16.4 720,18 C 864,19.6 936,73.8 1080,77 C 1224,80.2 1296,36.8 1440,34 C 1584,31.2 1728,57.2 1800,63L1800 100L0 100z" fill="rgba(139, 232, 255, 1)"></path>
+    </g>
+    <defs>
+        <mask id="SvgjsMask1174">
+            <rect width="1690" height="100" fill="#ffffff"></rect>
+        </mask>
+    </defs>
+</svg>

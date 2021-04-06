@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.home-container{
+  min-height: 90vh;}
+.tags {
+  color: #515152;
+  position: absolute;
+  bottom: 0;
+  font-style: italic;
+  left: -5rem;
+  font-size: 1rem;
+  font-family: "Space Mono", monospace;
+}
+.top-tags {
+  bottom: auto;
+  top: 0;
+}
+
+.top-tags:after {
+    left: -1.5rem;
+  content: "<body>";
+  font-family: "Space Mono", monospace;
+  color: #515152;
+  font-size: 1rem;
+  position: absolute;
+  margin-left: 2rem;
+}
+@media screen and (max-width: 600px) {
+    .tags {
+      left: 2rem;
+    }
+  }
+
+  /*  */
+.h1:before {
+  content: "<h1>";
+  font-family: "Space Mono", monospace;
+  color: #515152;
+  font-size: 1rem;
+  position: absolute;
+  margin-top: -1.7rem;
+  left: -1.5rem;
+  padding-bottom: 15px;
+}
+.h1{
+    padding-top: 15px;
+    line-height: 25px;
+    font-size: 50px !important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800 !important;
+    color: #8BE8FF;
+}
+/* ------ */
+/* div container */
+.text-zone {
+    margin-top: 60px;
+    position: relative;
+    z-index: 1;
+}
+.gkFbTA {
+    letter-spacing: 0.05em;
+    line-height: 72px;
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    display: inline-block;
+    transition: all 0.3s linear 0s;
+    cursor: pointer;
+    color: whitesmoke;
+}
+.gkFbTA .letra{
+    padding-right: 20px !important;
+} 
+.gkFbTA:hover {
+    color: #8BE8FF;
+    animation: bounce 1s linear; 
+}
+.text-zone:after {
+    left: -1.5rem;
+  content: "</h1>";
+  font-family: "Space Mono", monospace;
+  color: #515152;
+  font-size: 1rem;
+  position: absolute;
+  padding-top: 65px;
+  margin-left: 1rem;
+}
+@media screen and (max-width: 600px){
+    .text-zone {
+        left: 2rem !important;
+    }
+    .text-zone:after{
+      padding-top: 75px;
+    }
+}
+
+
+@keyframes bounce{
+    20%,50%,80%,to{
+        transform: translateY(0)
+    }
+    40%{
+        transform: translateY(-30px)
+    }
+    70%{
+        transform: translateY(-15px)
+    }
+    90%{
+        transform: translateY(-4px)
+    }
+}
+
+/* --------parrafito--------- */
+.parrafito{
+  font-family: 'Poppins', sans-serif;
+  color:beige;
+  padding:40px;
+  font-size: 20px!important;
+  line-height: 22px;
+  font-weight: 400;
+}
+.parrafito::before{
+  content: "<p>";
+  font-family: "Space Mono", monospace;
+  color: #515152;
+  font-size: 1rem;
+  position: absolute;
+  margin-top: -1rem;
+  left: 0;
+  
+}
+.parrafito::after{
+  content: "</p>";
+  font-family: "Space Mono", monospace;
+  color: #515152;
+  font-size: 1rem;
+  position: absolute;
+  margin-top: -1rem;
+  left: 0;
+  
+}
+/* -----------btn---------------- */
+.contact-btn{
+  width: 170px;
+  margin-top: 10px;
+  padding:50px;
+
+}
+.contact-btn :hover{
+  background-color: #8BE8FF!important;
+
+}
+.contact-btn::before{
+  content: "<btn>";
+  font-family: "Space Mono", monospace;
+  color: #515152;
+  font-size: 1rem;
+  position: absolute;
+  padding-bottom: 20px;
+  margin-top: -3rem;
+  left: 0;
+}
+.contact-btn::after{
+  content: "</btn>";
+  font-family: "Space Mono", monospace;
+  color: #515152;
+  font-size: 1rem;
+  position: absolute;
+  margin-top: 3rem !important;
+  left: -1rem;
+}
+/* --------------fin btn----------- */
+.pre{
+  color: black;
+}
+.pre::after{
+  content: "</body>";
+  font-family: "Space Mono", monospace;
+  color: #515152;
+  font-size: 1rem;
+  position: absolute;
+  margin-top: 1rem !important;
+  left: -4.5rem;
+}
+
+.fin{
+  color: black;
+}
+
+.fin::after{
+  content: "</html>";
+  font-family: "Space Mono", monospace;
+  color: #515152;
+  font-size: 1rem;
+  position: absolute;
+  margin-top: 4rem;
+  left: -6rem;
+}
+
+@media screen and (max-width: 600px){
+  .fin::after {
+      left: 2rem !important;
+      margin-top: 10px !important;
+  }.pre::after{
+    left: 2rem !important;
+    margin-top: 8px !important;
+  }
+  .parrafito::after{
+    left: 2rem !important;
+  }
+  .parrafito::before{
+    left: 2rem !important;
+  }
+  .contact-btn::before{
+    left: 2rem !important;
+
+  }
+  .contact-btn::after{
+    left: 2rem !important;
+
+  }
+}
