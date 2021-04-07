@@ -71,8 +71,11 @@
   .heading-section h1.big {
     display: none;
   }
+  .aboutsection {
+    width: 60vh !important;
+  }
   .imgabout {
     width: 300px;
-    padding-left: 0;
+    padding-left: 1px;
   }
 }
