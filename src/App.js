@@ -2,6 +2,7 @@ import Navigation from "./components/Navbar/Navigation";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Resume from "./components/Resume/Resume";
+import Footer from "./components/Footer/Footer";
 
 import { BrowserRouter as Router } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -20,6 +21,7 @@ function App() {
         <Home />
         <About />
         <Resume />
+        <Footer />
       </Router>
     </>
   );

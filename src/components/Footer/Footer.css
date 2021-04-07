@@ -1,0 +1,22 @@
+.footer svg:nth-child(1) {
+  transform: translateY(5px) !important;
+  color: #3c2a96;
+}
+.page-footer {
+  background-color: #3c2a96 !important;
+  color: aliceblue !important;
+  font-size: 2rem;
+}
+
+.footer a {
+  text-decoration: none;
+}
+.btn-tw {
+  color: rgb(106, 213, 255);
+}
+.btn-fb {
+  color: blue;
+}
+.btn-li {
+  color: rgb(18, 18, 151);
+}

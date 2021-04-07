@@ -4,5 +4,6 @@ body {
   background-color: #000000;
   max-width: 100% !important;
   overflow-x: hidden !important;
-  margin: 0% !important;
+  margin: 1px !important;
+  padding: 1px !important;
 }

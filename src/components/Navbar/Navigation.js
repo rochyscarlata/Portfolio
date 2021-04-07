@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import "./Navigation.css";
 import { Link } from "react-router-dom";
 import Fade from "react-reveal/Fade";
-
+import About from "../About/About";
 function Navigation() {
   const [click, setClick] = useState(false);
 
@@ -34,14 +34,14 @@ function Navigation() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link
-                  to="#about"
+                <a
+                  href="../About/About"
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
                   {" "}
                   About
-                </Link>
+                </a>
               </li>
               <li className="nav-item">
                 <Link
