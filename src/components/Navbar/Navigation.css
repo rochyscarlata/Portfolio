@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap");
 .navbar {
-  background-color: #00000000;
+  background-color: #00000075;
   height: 100px;
   display: flex;
   justify-content: center;
@@ -10,9 +10,7 @@
   top: 0;
   z-index: 999;
 }
-.navbar .active {
-  background-color: #000000;
-}
+
 .navbar-container {
   display: flex;
   justify-content: center;
