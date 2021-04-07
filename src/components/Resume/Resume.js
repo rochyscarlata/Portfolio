@@ -37,7 +37,7 @@ function Resume() {
             <span class="date">2019-2020</span>
             <h2>Full Stack Mern Developer</h2>
             <span class="position"></span>
-            <p class="mt-4">Rolling Code School- 9 months.</p>
+            <p class="mt-4">Rolling Code School</p>
           </div>
           <div class="resume-wrap ftco-animate fadeInUp ftco-animated">
             <span class="date">May 2021</span>
