@@ -18,6 +18,7 @@ function Home() {
               <h1 className="h1">WELCOME! </h1>
 
               <span className="gkFbTA">I</span>
+              <span className="gkFbTA">'</span>
               <span className="letra gkFbTA ">m</span>
               <span className="gkFbTAa"> I</span>
 
@@ -48,7 +49,7 @@ function Home() {
               <p>Front End, React</p>
             </div>
             <Button variant="outline-info" size="lg" className="contact-btn">
-              Conctact me
+              Contact me
             </Button>
             <div className="pre">
               <p>Front End, React</p>
