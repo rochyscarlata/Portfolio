@@ -10,7 +10,9 @@
   top: 0;
   z-index: 999;
 }
-
+.navbar .active {
+  background-color: #000000;
+}
 .navbar-container {
   display: flex;
   justify-content: center;
@@ -76,7 +78,7 @@
   font-weight: 600 !important;
   text-decoration: none !important;
 }
-.navbar-fixed-top.scrolled {
+.navbar.scroll {
   background: black;
 }
 .fa-bars {

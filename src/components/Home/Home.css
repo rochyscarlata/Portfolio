@@ -95,6 +95,9 @@
   .text-zone:after {
     padding-top: 75px;
   }
+  .gkFbTA {
+    font-size: 2.5rem;
+  }
 }
 
 @keyframes bounce {
@@ -218,5 +221,16 @@
   }
   .contact-btn::after {
     left: 2rem !important;
+  }
+}
+
+@media screen and (device-width: 375px) {
+  .gkFbTA {
+    font-size: 2.3rem !important;
+  }
+}
+@media screen and (device-width: 320px) {
+  .gkFbTA {
+    font-size: 2rem !important;
   }
 }
