@@ -7,7 +7,7 @@ import Fade from "react-reveal/Fade";
 
 function About() {
   return (
-    <Container fluid className="aboutsection">
+    <Container className="aboutsection">
       <Fade bottom cascade>
         <Row>
           <Col xs="12" sm={6}>
