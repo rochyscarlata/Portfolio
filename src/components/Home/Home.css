@@ -143,13 +143,7 @@
   left: 0;
 }
 /* -----------btn---------------- */
-.contact-btn {
-  width: 170px;
-  margin-top: 10px;
-  padding: 50px;
-  border-color: #3c2a96 !important;
-  color: white !important;
-}
+
 .contact-btn:hover {
   background-color: #3c2a96 !important;
   color: antiquewhite !important;
