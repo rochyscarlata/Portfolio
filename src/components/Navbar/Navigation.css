@@ -76,7 +76,9 @@
   font-weight: 600 !important;
   text-decoration: none !important;
 }
-
+.navbar-fixed-top.scrolled {
+  background: black;
+}
 .fa-bars {
   color: #fff;
 }
