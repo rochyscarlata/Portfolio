@@ -103,7 +103,7 @@
     height: 90vh;
     position: absolute;
     top: 80px;
-    left: -100%;
+    left: -150%;
     opacity: 1;
     transition: all 0.5s ease;
   }
@@ -125,7 +125,7 @@
 
   .nav-links:hover {
     background-color: #3c2a96;
-    color: #242424;
+    color: #ffffff;
     border-radius: 0;
     line-height: 45px;
     font-weight: 900 !important;

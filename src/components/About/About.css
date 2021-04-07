@@ -72,7 +72,7 @@
     display: none;
   }
   .aboutsection {
-    width: 52vh !important;
+    /* width: 52vh !important; */
     padding-left: 0%;
     padding-right: 0%;
   }
