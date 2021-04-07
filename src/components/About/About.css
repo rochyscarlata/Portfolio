@@ -2,6 +2,7 @@
   background-color: #3c2a96 !important;
   clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);
   padding: 100px;
+  text-align: center;
 }
 .text-center {
   text-align: center;
@@ -11,16 +12,20 @@
 }
 .heading-section h1.big {
   position: absolute;
+  align-items: center;
+  justify-content: center;
   top: 0px;
-  left: 0;
+  left: 180px;
   font-size: 7vw;
   color: rgba(41, 41, 41, 0.123);
   z-index: -1;
   font-weight: 900;
+
+  text-align: center;
 }
 
 .heading-section h2 {
-  font-size: 4rem !important;
+  font-size: 5rem !important;
   font-weight: 700;
   font-family: "Poppins", sans-serif;
 
@@ -28,11 +33,11 @@
   padding-top: 2rem;
 }
 .heading-section .h2:hover {
-  cursor: pointer;
+  cursor: pointer !important;
 }
 .heading-section .p {
   color: #f5f4f4;
-  font-size: 18px;
+  font-size: 24px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   margin-right: 2rem;
@@ -40,6 +45,27 @@
 .imgabout {
   border-radius: 7px !important;
   padding-left: 2rem;
+}
+.buttonn {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding: 15px 25px;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: color 0.3s, background-color 0.3s;
+  border-radius: 30px;
+  font-weight: 900;
+  justify-content: center;
+}
+.button--about-me {
+  margin-top: 30px;
+  background-color: #fff;
+  color: #000;
+}
+.button--about-me:hover {
+  background-color: rgb(151, 80, 233);
+  color: #fff;
 }
 @media screen and (max-width: 700px) {
   .heading-section h1.big {

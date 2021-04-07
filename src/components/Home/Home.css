@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 
-.home-container{
-  min-height: 90vh;}
+.home-container {
+  min-height: 90vh;
+}
 .tags {
   color: #515152;
   position: absolute;
@@ -19,7 +20,7 @@
 }
 
 .top-tags:after {
-    left: -1.5rem;
+  left: -1.5rem;
   content: "<body>";
   font-family: "Space Mono", monospace;
   color: #515152;
@@ -28,12 +29,12 @@
   margin-left: 2rem;
 }
 @media screen and (max-width: 600px) {
-    .tags {
-      left: 2rem;
-    }
+  .tags {
+    left: 2rem;
   }
+}
 
-  /*  */
+/*  */
 .h1:before {
   content: "<h1>";
   font-family: "Space Mono", monospace;
@@ -44,41 +45,41 @@
   left: -1.5rem;
   padding-bottom: 15px;
 }
-.h1{
-    padding-top: 15px;
-    line-height: 25px;
-    font-size: 50px !important;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 800 !important;
-    color: #8BE8FF;
+.h1 {
+  padding-top: 15px;
+  line-height: 25px;
+  font-size: 50px !important;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800 !important;
+  color: #4d3ba5;
 }
 /* ------ */
 /* div container */
 .text-zone {
-    margin-top: 60px;
-    position: relative;
-    z-index: 1;
+  margin-top: 60px;
+  position: relative;
+  z-index: 1;
 }
 .gkFbTA {
-    letter-spacing: 0.05em;
-    line-height: 72px;
-    font-size: 60px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 800;
-    display: inline-block;
-    transition: all 0.3s linear 0s;
-    cursor: pointer;
-    color: whitesmoke;
+  letter-spacing: 0.05em;
+  line-height: 72px;
+  font-size: 60px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  display: inline-block;
+  transition: all 0.3s linear 0s;
+  cursor: pointer;
+  color: whitesmoke;
 }
-.gkFbTA .letra{
-    padding-right: 20px !important;
-} 
+.gkFbTA .letra {
+  padding-right: 20px !important;
+}
 .gkFbTA:hover {
-    color: #8BE8FF;
-    animation: bounce 1s linear; 
+  color: #4d3ba5;
+  animation: bounce 1s linear;
 }
 .text-zone:after {
-    left: -1.5rem;
+  left: -1.5rem;
   content: "</h1>";
   font-family: "Space Mono", monospace;
   color: #515152;
@@ -87,41 +88,43 @@
   padding-top: 65px;
   margin-left: 1rem;
 }
-@media screen and (max-width: 600px){
-    .text-zone {
-        left: 2rem !important;
-    }
-    .text-zone:after{
-      padding-top: 75px;
-    }
+@media screen and (max-width: 600px) {
+  .text-zone {
+    left: 2rem !important;
+  }
+  .text-zone:after {
+    padding-top: 75px;
+  }
 }
 
-
-@keyframes bounce{
-    20%,50%,80%,to{
-        transform: translateY(0)
-    }
-    40%{
-        transform: translateY(-30px)
-    }
-    70%{
-        transform: translateY(-15px)
-    }
-    90%{
-        transform: translateY(-4px)
-    }
+@keyframes bounce {
+  20%,
+  50%,
+  80%,
+  to {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  70% {
+    transform: translateY(-15px);
+  }
+  90% {
+    transform: translateY(-4px);
+  }
 }
 
 /* --------parrafito--------- */
-.parrafito{
-  font-family: 'Poppins', sans-serif;
-  color:beige;
-  padding:40px;
-  font-size: 20px!important;
+.parrafito {
+  font-family: "Poppins", sans-serif;
+  color: beige;
+  padding: 40px;
+  font-size: 20px !important;
   line-height: 22px;
   font-weight: 400;
 }
-.parrafito::before{
+.parrafito::before {
   content: "<p>";
   font-family: "Space Mono", monospace;
   color: #515152;
@@ -129,9 +132,8 @@
   position: absolute;
   margin-top: -1rem;
   left: 0;
-  
 }
-.parrafito::after{
+.parrafito::after {
   content: "</p>";
   font-family: "Space Mono", monospace;
   color: #515152;
@@ -139,20 +141,20 @@
   position: absolute;
   margin-top: -1rem;
   left: 0;
-  
 }
 /* -----------btn---------------- */
-.contact-btn{
+.contact-btn {
   width: 170px;
   margin-top: 10px;
-  padding:50px;
-
+  padding: 50px;
+  border-color: #3c2a96 !important;
+  color: white !important;
 }
-.contact-btn :hover{
-  background-color: #8BE8FF!important;
-
+.contact-btn:hover {
+  background-color: #3c2a96 !important;
+  color: antiquewhite !important;
 }
-.contact-btn::before{
+.contact-btn::before {
   content: "<btn>";
   font-family: "Space Mono", monospace;
   color: #515152;
@@ -162,7 +164,7 @@
   margin-top: -3rem;
   left: 0;
 }
-.contact-btn::after{
+.contact-btn::after {
   content: "</btn>";
   font-family: "Space Mono", monospace;
   color: #515152;
@@ -172,10 +174,10 @@
   left: -1rem;
 }
 /* --------------fin btn----------- */
-.pre{
+.pre {
   color: black;
 }
-.pre::after{
+.pre::after {
   content: "</body>";
   font-family: "Space Mono", monospace;
   color: #515152;
@@ -185,11 +187,11 @@
   left: -4.5rem;
 }
 
-.fin{
+.fin {
   color: black;
 }
 
-.fin::after{
+.fin::after {
   content: "</html>";
   font-family: "Space Mono", monospace;
   color: #515152;
@@ -199,26 +201,25 @@
   left: -6rem;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
   .fin::after {
-      left: 2rem !important;
-      margin-top: 10px !important;
-  }.pre::after{
+    left: 2rem !important;
+    margin-top: 10px !important;
+  }
+  .pre::after {
     left: 2rem !important;
     margin-top: 8px !important;
   }
-  .parrafito::after{
+  .parrafito::after {
     left: 2rem !important;
   }
-  .parrafito::before{
+  .parrafito::before {
     left: 2rem !important;
   }
-  .contact-btn::before{
+  .contact-btn::before {
     left: 2rem !important;
-
   }
-  .contact-btn::after{
+  .contact-btn::after {
     left: 2rem !important;
-
   }
 }

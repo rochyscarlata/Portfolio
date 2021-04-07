@@ -1,9 +1,7 @@
 import React from "react";
-import { Container, Row, Col, Jumbotron } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import "./About.css";
 import imgAbout from "../../img/imagecola.png";
-import WaveUp from "../../img/wave.svg";
-import Typical from "react-typical";
 
 import Fade from "react-reveal/Fade";
 
@@ -31,6 +29,13 @@ function About() {
                 for a year. I like challenges and teamwork.
                 <br></br> Also im a fan of online courses❤.
               </p>
+              <a
+                href="./assets/docs/CV-RosarioScarlata.pdf"
+                target="_blank"
+                class="buttonn button--about-me"
+              >
+                Descargar CV
+              </a>
             </div>
           </Col>
         </Row>
