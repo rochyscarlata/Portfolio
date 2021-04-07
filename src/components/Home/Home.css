@@ -213,6 +213,9 @@
   .contact-btn::before {
     left: 2rem !important;
   }
+  .contact-btn {
+    left: 3rem !important;
+  }
   .contact-btn::after {
     left: 2rem !important;
   }

@@ -72,7 +72,9 @@
     display: none;
   }
   .aboutsection {
-    width: 60vh !important;
+    width: 52vh !important;
+    padding-left: 0%;
+    padding-right: 0%;
   }
   .imgabout {
     width: 300px;

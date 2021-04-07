@@ -1,0 +1,55 @@
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Poppins", sans-serif;
+}
+.pb-5,
+.py-5 {
+  padding-bottom: 3rem !important;
+}
+.justify-content-center {
+  -webkit-box-pack: center !important;
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.resume-wrap {
+  width: 100%;
+  margin-bottom: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 7px 29px 0px;
+}
+.resume-wrap .date {
+  font-weight: 900;
+  font-size: 26px;
+  color: #6d6deb;
+}
+.resume-wrap h2 {
+  font-size: 26px;
+  line-height: 1.5;
+  color: white;
+  font-weight: 400;
+}
+.resume-wrap p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+  color: #999999;
+}

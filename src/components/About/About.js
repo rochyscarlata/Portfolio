@@ -34,7 +34,7 @@ function About() {
                 target="_blank"
                 class="buttonn button--about-me"
               >
-                Descargar CV
+                Download CV
               </a>
             </div>
           </Col>
