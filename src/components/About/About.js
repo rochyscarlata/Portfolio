@@ -24,9 +24,9 @@ function About() {
               <h1 className="big">About </h1>
               <h2 className="mb-4 h2">About Me</h2>
               <p className="p">
-                I am a front end developer located in Argentina. I've been in
-                the programming world for 3 years, but in frontend development
-                for a year. I like challenges and teamwork.
+                I am a frontend developer located in Argentina. I've been in the
+                programming world for 3 years, but in frontend development for a
+                year. I like challenges and teamwork.
                 <br></br> Also im a fan of online courses❤.
               </p>
               <a

@@ -1,5 +1,6 @@
 import React from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+// import { Container, Row, Col, Button } from "react-bootstrap";
+
 import "./Resume.css";
 function Resume() {
   return (
@@ -11,6 +12,7 @@ function Resume() {
           <p>A bit of my studies in the world of programming</p>
         </div>
       </div>
+
       <div class="row">
         <div class="col-md-6">
           <div class="resume-wrap ftco-animate fadeInUp ftco-animated">

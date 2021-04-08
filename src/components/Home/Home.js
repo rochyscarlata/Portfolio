@@ -46,9 +46,9 @@ function Home() {
               <span className="gkFbTA">r</span>
             </div>
             <div className="parrafito">
-              <p>Front End, React</p>
+              <p>Frontend, React</p>
             </div>
-            <Button variant="outline-info" size="lg" className="contact-btn">
+            <Button variant="outline-info" size="lg" className="contact">
               Contact me
             </Button>
             <div className="pre">
@@ -59,7 +59,7 @@ function Home() {
             </div>
           </Fade>
         </Col>
-        <Col xs="12" sm={4} ml="10px">
+        <Col xs="12" sm={4} mr="10px">
           <img
             alt="logo"
             src={Rosario}
