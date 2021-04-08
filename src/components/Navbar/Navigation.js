@@ -16,26 +16,26 @@ function Navigation() {
       <Fade top>
         <nav className="navbar">
           <div className="navbar-container">
-            <Link to="/" className="navbar-logo">
+            <a to="/" className="navbar-logo">
               ROSARIO
-            </Link>
+            </a>
             <div className="menu-icon" onClick={handleClick}>
               <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
             </div>
             <ul className={click ? "nav-menu active" : "nav-menu"}>
               <li className="nav-item">
-                <Link
+                <a
                   to="/"
                   className="nav-links active"
                   onClick={closeMobileMenu}
                 >
                   {" "}
                   Home
-                </Link>
+                </a>
               </li>
               <li className="nav-item">
                 <a
-                  href="../About/About"
+                  href="#about"
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
@@ -44,26 +44,26 @@ function Navigation() {
                 </a>
               </li>
               <li className="nav-item">
-                <Link
-                  to="../Resume/Resume"
+                <a
+                  href="#resume"
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
                   {" "}
                   Resume
-                </Link>
+                </a>
               </li>
               <li className="nav-item">
-                <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+                <a to="/" className="nav-links" onClick={closeMobileMenu}>
                   {" "}
                   Projects
-                </Link>
+                </a>
               </li>
               <li className="nav-item">
-                <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+                <a to="/" className="nav-links" onClick={closeMobileMenu}>
                   {" "}
                   Contact
-                </Link>
+                </a>
               </li>
             </ul>
           </div>

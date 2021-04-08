@@ -1,10 +1,12 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 // import { Container, Row, Col, Button } from "react-bootstrap";
+import CV from "../../assets/docs/CVRosarioScarlata.pdf";
 
 import "./Resume.css";
 function Resume() {
   return (
-    <div class="container">
+    <div class="container" id="resume">
       <div class="row justify-content-center pb-5">
         <div class="col-md-10 heading-section text-center ftco-animate fadeInUp ftco-animated">
           <h1 class="big big-2">Resume</h1>
@@ -64,8 +66,9 @@ function Resume() {
         <div class="col-md-6 text-center ftco-animate fadeInUp ftco-animated">
           <p>
             <a
-              href="./assets/docs/CV-RosarioScarlata.pdf"
+              href={CV}
               target="_blank"
+              download="CV-Rosario Scarlata"
               class="buttonn button--about-me"
             >
               Download CV
