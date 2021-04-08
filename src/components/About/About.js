@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./About.css";
-import imgAbout from "../../img/imagecola.png";
+import imgAbout from "../../assets/img/imagecola.png";
 
 import Fade from "react-reveal/Fade";
 
