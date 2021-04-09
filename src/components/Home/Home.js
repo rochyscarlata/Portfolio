@@ -7,12 +7,7 @@ function Home() {
   return (
     <Container className="home-container">
       <Row>
-        <Col xs="12" sm={8}>
-          <span className="tags top-tags">
-            Html
-            <br></br>
-          </span>
-          <br></br>
+        <Col xs="12" sm={6}>
           <Fade right>
             <div className="text-zone">
               <h1 className="h1">WELCOME! </h1>
@@ -59,7 +54,7 @@ function Home() {
             </div>
           </Fade>
         </Col>
-        <Col xs="12" sm={4} mr="10px">
+        <Col xs="12" sm={6}>
           <img
             alt="logo"
             src={Rosario}

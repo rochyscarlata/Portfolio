@@ -5,7 +5,7 @@
 /* .home-container {
   background-color: fuchsia;
 } */
-.tags {
+/* .tags {
   color: #515152;
   position: absolute;
   bottom: 0;
@@ -32,19 +32,10 @@
   .tags {
     left: 2rem;
   }
-}
+} */
 
 /*  */
-.h1:before {
-  content: "<h1>";
-  font-family: "Space Mono", monospace;
-  color: #515152;
-  font-size: 1rem;
-  position: absolute;
-  margin-top: -1.7rem;
-  left: -1.5rem;
-  padding-bottom: 15px;
-}
+
 .h1 {
   padding-top: 15px;
   line-height: 25px;
@@ -78,25 +69,22 @@
   color: #4d3ba5;
   animation: bounce 1s linear;
 }
-.text-zone:after {
-  left: -1.5rem;
-  content: "</h1>";
-  font-family: "Space Mono", monospace;
-  color: #515152;
-  font-size: 1rem;
-  position: absolute;
-  padding-top: 65px;
-  margin-left: 1rem;
-}
+
 @media screen and (max-width: 600px) {
   .text-zone {
     left: 2rem !important;
   }
-  .text-zone:after {
-    padding-top: 75px;
-  }
+
   .gkFbTA {
     font-size: 2.5rem;
+  }
+  .imgrosario {
+    margin-right: 20px !important;
+    width: 330px;
+    height: 500px;
+  }
+  .contact {
+    margin-left: 50px !important;
   }
 }
 
@@ -127,7 +115,7 @@
   line-height: 22px;
   font-weight: 400;
 }
-.parrafito::before {
+/* .parrafito::before {
   content: "<p>";
   font-family: "Space Mono", monospace;
   color: #515152;
@@ -144,14 +132,14 @@
   position: absolute;
   margin-top: -1rem;
   left: 0;
-}
+} */
 /* -----------btn---------------- */
 
 .contact:hover {
   background-color: #3c2a96 !important;
   color: antiquewhite !important;
 }
-.contact::before {
+/* .contact::before {
   content: "<btn>";
   font-family: "Space Mono", monospace;
   color: #515152;
@@ -169,12 +157,12 @@
   position: absolute;
   margin-top: 3rem !important;
   left: -1rem;
-}
+} */
 /* --------------fin btn----------- */
 .pre {
   color: black;
 }
-.pre::after {
+/* .pre::after {
   content: "</body>";
   font-family: "Space Mono", monospace;
   color: #515152;
@@ -182,13 +170,13 @@
   position: absolute;
   margin-top: 1rem !important;
   left: -4.5rem;
-}
+} */
 
 .fin {
   color: black;
 }
 
-.fin::after {
+/* .fin::after {
   content: "</html>";
   font-family: "Space Mono", monospace;
   color: #515152;
@@ -196,33 +184,7 @@
   position: absolute;
   margin-top: 4rem;
   left: -6rem;
-}
-
-@media screen and (max-width: 600px) {
-  .fin::after {
-    left: 2rem !important;
-    margin-top: 10px !important;
-  }
-  .pre::after {
-    left: 2rem !important;
-    margin-top: 8px !important;
-  }
-  .parrafito::after {
-    left: 2rem !important;
-  }
-  .parrafito::before {
-    left: 2rem !important;
-  }
-  .contact::before {
-    left: 2rem !important;
-  }
-  .contact {
-    margin-left: 50px !important;
-  }
-  .contact::after {
-    left: 2rem !important;
-  }
-}
+} */
 
 @media screen and (device-width: 375px) {
   .gkFbTA {
