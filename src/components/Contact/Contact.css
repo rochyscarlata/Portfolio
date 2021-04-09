@@ -1,0 +1,41 @@
+.cont {
+  padding-right: 0 !important ;
+  padding-left: 0 !important;
+}
+.contact-form {
+  color: rgb(250, 250, 250);
+
+  background-color: #3c2a96 !important;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: "Poppins", sans-serif;
+}
+.formu {
+  padding-bottom: 50px;
+}
+
+.tittle-contact {
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.cont svg:nth-child(1) {
+  transform: translateY(5px);
+}
+.form-group {
+  margin-bottom: 0% !important;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+@media screen and (max-width: 600px) {
+  .tittle-contact {
+    font-size: 30px;
+    padding: 20px 20px 0 20px;
+  }
+  .form-group {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
