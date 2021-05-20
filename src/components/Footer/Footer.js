@@ -7,7 +7,7 @@ function Footer() {
       
         <div class="footer-copyright text-center py-3">
           © 2021 Copyright:
-          <a href="/"> Rosarioscarlatadev.com</a>
+          <a href="/"> Rosarioscarlata.website</a>
         </div>
       </footer>
     </div>

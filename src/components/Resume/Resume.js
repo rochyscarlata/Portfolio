@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 // import { Container, Row, Col, Button } from "react-bootstrap";
-import CV from "../../assets/docs/CVRosarioScarlata.pdf";
+import CV from "../../assets/docs/en-CV-ROSARIOSCARLATA.pdf";
 
 import "./Resume.css";
 function Resume() {
@@ -68,7 +68,7 @@ function Resume() {
             <a
               href={CV}
               target="_blank"
-              download="CV-Rosario Scarlata"
+              download="en-CV-ROSARIOSCARLATA"
               class="buttonn button--about-me"
             >
               Download CV

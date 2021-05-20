@@ -3,7 +3,7 @@ import { Container, Form, Row, Col, Button } from "react-bootstrap";
 import "./Contact.css";
 function Contact() {
   return (
-    <Container fluid className="cont">
+    <Container fluid className="cont" >
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#3c2a96"
@@ -18,7 +18,7 @@ function Contact() {
             <br/>
           <Form.Group>
  
-  <Form.Control type="text" placeholder="Name" className="inp"/>
+  <Form.Control type="text" placeholder="Name" className="inp" id="contact"/>
   <br/>
   <Form.Control type="text" placeholder="Email" className="inp"/>
   <br/>

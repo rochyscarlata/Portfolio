@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./About.css";
 import imgAbout from "../../assets/img/imagecola.png";
-import CV from "../../assets/docs/CVRosarioScarlata.pdf";
+import CV from "../../assets/docs/en-CV-ROSARIOSCARLATA.pdf";
 import Fade from "react-reveal/Fade";
 
 function About() {
@@ -33,7 +33,7 @@ function About() {
                 href={CV}
                 target="_blank"
                 class="buttonn button--about-me"
-                download="CV-Rosario Scarlata"
+                download="en-CV-ROSARIOSCARLATA"
                 rel="noreferrer"
               >
                 Download CV

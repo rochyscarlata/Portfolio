@@ -110,54 +110,23 @@
 .parrafito {
   font-family: "Poppins", sans-serif;
   color: beige;
-  padding: 40px;
+  padding-top: 20px;
+  padding: 20px;
   font-size: 20px !important;
   line-height: 22px;
   font-weight: 400;
 }
-/* .parrafito::before {
-  content: "<p>";
-  font-family: "Space Mono", monospace;
-  color: #515152;
-  font-size: 1rem;
-  position: absolute;
-  margin-top: -1rem;
-  left: 0;
-}
-.parrafito::after {
-  content: "</p>";
-  font-family: "Space Mono", monospace;
-  color: #515152;
-  font-size: 1rem;
-  position: absolute;
-  margin-top: -1rem;
-  left: 0;
-} */
+
 /* -----------btn---------------- */
 
 .contact:hover {
   background-color: #3c2a96 !important;
   color: antiquewhite !important;
 }
-/* .contact::before {
-  content: "<btn>";
-  font-family: "Space Mono", monospace;
-  color: #515152;
-  font-size: 1rem;
-  position: absolute;
-  padding-bottom: 20px;
-  margin-top: -3rem;
-  left: 0;
+.contact{
+  border-color: #4d3ba5 !important;
+  color: #4d3ba5 !important;
 }
-.contact::after {
-  content: "</btn>";
-  font-family: "Space Mono", monospace;
-  color: #515152;
-  font-size: 1rem;
-  position: absolute;
-  margin-top: 3rem !important;
-  left: -1rem;
-} */
 /* --------------fin btn----------- */
 .pre {
   color: black;

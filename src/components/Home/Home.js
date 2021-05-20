@@ -43,7 +43,7 @@ function Home() {
             <div className="parrafito">
               <p>Frontend, React</p>
             </div>
-            <Button variant="outline-dark" size="lg" className="contact">
+            <Button variant="outline-dark" size="lg" className="contact" href="#contact">
               Contact me
             </Button>
             <div className="pre">
