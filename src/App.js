@@ -2,6 +2,8 @@ import Navigation from "./components/Navbar/Navigation";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Resume from "./components/Resume/Resume";
+import Projects from "./components/Projects/projects";
+
 import Contact from "./components/Contact/Contact";
 
 import Footer from "./components/Footer/Footer";
@@ -23,6 +25,7 @@ function App() {
         <Home />
         <About />
         <Resume />
+        <Projects/>
         <Contact />
         <Footer />
       </Router>
