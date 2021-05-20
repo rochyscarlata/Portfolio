@@ -1,5 +1,5 @@
 import React from "react";
-import Rosario from "../../assets/img/rosariosc.png";
+import Rosario from "../../assets/img/yo.png";
 import Fade from "react-reveal/Fade";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "./Home.css";
@@ -43,15 +43,13 @@ function Home() {
             <div className="parrafito">
               <p>Frontend, React</p>
             </div>
-            <Button variant="outline-info" size="lg" className="contact">
+            <Button variant="outline-dark" size="lg" className="contact">
               Contact me
             </Button>
             <div className="pre">
               <p>Front End, React</p>
             </div>
-            <div className="fin">
-              <p>Front End, React</p>
-            </div>
+            
           </Fade>
         </Col>
         <Col xs="12" sm={6}>
@@ -60,7 +58,7 @@ function Home() {
             src={Rosario}
             className="imgrosario"
             width="400"
-            height="600"
+            height="500"
             responsive
           />
         </Col>

@@ -19,9 +19,9 @@ function Resume() {
         <div class="col-md-6">
           <div class="resume-wrap ftco-animate fadeInUp ftco-animated">
             <span class="date">2018-2020</span>
-            <h2>Senior programming technician</h2>
+            <h2>Superior programming technician</h2>
             <span class="position"></span>
-            <p class="mt-4">Univerisad Tecnologica Tucuman</p>
+            <p class="mt-4">Univerisad Tecnologica Nacional</p>
           </div>
           <div class="resume-wrap ftco-animate fadeInUp ftco-animated">
             <span class="date">March-April 2021</span>
@@ -47,12 +47,12 @@ function Resume() {
             <span class="date">May 2021</span>
             <h2>React Js Developer</h2>
             <p class="mt-4">
-              <span>Coderhouse - Pending course</span>
+              <span>Coderhouse</span>
               <br></br>
             </p>
           </div>
           <div class="resume-wrap ftco-animate fadeInUp ftco-animated">
-            <span class="date">May 2021</span>
+            <span class="date">July 2021</span>
             <h2>UI/UX Designer</h2>
             <span class="position"></span>
             <p class="mt-4">
