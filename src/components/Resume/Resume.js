@@ -29,11 +29,11 @@ function Resume() {
             <span class="position"></span>
             <p class="mt-4">intensive course in Educacion IT</p>
           </div>
-          <div class="resume-wrap ftco-animate fadeInUp ftco-animated">
+          {/* <div class="resume-wrap ftco-animate fadeInUp ftco-animated">
             <span class="date">2021</span>
             <h2>English course</h2>
             <p class="mt-4">currently studying in Aticana</p>
-          </div>
+          </div> */}
         </div>
 
         <div class="col-md-6">

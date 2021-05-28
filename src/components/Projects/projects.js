@@ -11,7 +11,7 @@ import {
 import Fade from "react-reveal/Fade";
 import Stats from "../../assets/img/statistics.png";
 import Super from "../../assets/img/super.png";
-import Chat from "../../assets/img/chating.png";
+import Ecom from "../../assets/img/ecommerce.png";
 import Movie from "../../assets/img/popcorn.png";
 import Todo from "../../assets/img/listdo.png";
 import Cotiz from "../../assets/img/cotiz.png";
@@ -42,8 +42,8 @@ function projects() {
               </Figure>
               <h1>Super Heroes App</h1>
               <p>
-                This is a challenge for the alkemy company, you can enter with
-                the user 'challenge@alkemy.org' and the password 'react'
+              This is a hero search app, where you can see their characteristics and stats
+                
               </p>
               <p>
                 <Button variant="primary">Learn more</Button>
@@ -62,8 +62,7 @@ function projects() {
               </Figure>
               <h1>Movie Time</h1>
               <p>
-                This is a simple hero unit, a simple jumbotron-style component
-                for calling extra attention to featured content or information.
+              This is a movie search app where you can see all your info
               </p>
               <p>
                 <Button variant="primary">Learn more</Button>
@@ -82,8 +81,7 @@ function projects() {
               </Figure>
               <h1>Budget app</h1>
               <p>
-                This is a simple hero unit, a simple jumbotron-style component
-                for calling extra attention to featured content or information.
+              This is a Personal Finance Tools app that makes it easy to see how much you are spending
               </p>
               <p>
                 <Button variant="primary">Learn more</Button>
@@ -99,13 +97,12 @@ function projects() {
                   width={171}
                   height={180}
                   alt="171x180"
-                  src={Chat}
+                  src={Ecom}
                 />
               </Figure>
-              <h1>Chat App</h1>
+              <h1>Ecommerce</h1>
               <p>
-                This is a simple hero unit, a simple jumbotron-style component
-                for calling extra attention to featured content or information.
+              This is a project for the Coderhouse course that I have not finished yet.
               </p>
               <p>
                 <Button variant="primary">Learn more</Button>
@@ -149,8 +146,7 @@ function projects() {
               </Figure>
               <h1>To do app</h1>
               <p>
-                This is a simple hero unit, a simple jumbotron-style component
-                for calling extra attention to featured content or information.
+              ToDo App is simple and awesome app to organize your tasks with very easy to use interface.
               </p>
               <p>
                 <Button variant="primary">Learn more</Button>
