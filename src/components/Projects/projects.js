@@ -9,17 +9,12 @@ import {
   Figure,
 } from "react-bootstrap";
 import Fade from "react-reveal/Fade";
-import Stats from '../../assets/img/statistics.png'
-import Super from '../../assets/img/super.png'
-import Chat from '../../assets/img/chating.png'
-import Movie from '../../assets/img/popcorn.png'
-import Todo from '../../assets/img/listdo.png'
-import Cotiz from '../../assets/img/cotiz.png'
-
-
-
-
-
+import Stats from "../../assets/img/statistics.png";
+import Super from "../../assets/img/super.png";
+import Chat from "../../assets/img/chating.png";
+import Movie from "../../assets/img/popcorn.png";
+import Todo from "../../assets/img/listdo.png";
+import Cotiz from "../../assets/img/cotiz.png";
 
 import "./projects.css";
 function projects() {
@@ -33,11 +28,11 @@ function projects() {
             These are some of my projects. The others are in my github profile.
           </p>
         </section>
-
+        <br />
         <Row>
           <Col sm>
             <Jumbotron>
-            <Figure>
+              <Figure>
                 <Figure.Image
                   width={171}
                   height={180}
@@ -47,8 +42,8 @@ function projects() {
               </Figure>
               <h1>Super Heroes App</h1>
               <p>
-                This is a simple hero unit, a simple jumbotron-style component
-                for calling extra attention to featured content or information.
+                This is a challenge for the alkemy company, you can enter with
+                the user 'challenge@alkemy.org' and the password 'react'
               </p>
               <p>
                 <Button variant="primary">Learn more</Button>
@@ -57,7 +52,7 @@ function projects() {
           </Col>
           <Col sm>
             <Jumbotron>
-            <Figure>
+              <Figure>
                 <Figure.Image
                   width={171}
                   height={170}
@@ -99,7 +94,7 @@ function projects() {
         <Row>
           <Col sm>
             <Jumbotron>
-            <Figure>
+              <Figure>
                 <Figure.Image
                   width={171}
                   height={180}
@@ -119,7 +114,7 @@ function projects() {
           </Col>
           <Col sm>
             <Jumbotron>
-            <Figure>
+              <Figure>
                 <Figure.Image
                   width={171}
                   height={170}
@@ -129,11 +124,16 @@ function projects() {
               </Figure>
               <h1>Calculator cryptocurrency</h1>
               <p>
-                This is a simple hero unit, a simple jumbotron-style component
-                for calling extra attention to featured content or information.
+                This is a simple app to find the prices of cryptocurrencies.
               </p>
               <p>
-                <Button variant="primary">Learn more</Button>
+                <Button
+                  variant="primary"
+                  target="_blank"
+                  href="https://cryptopochola.netlify.app/"
+                >
+                  Live Preview
+                </Button>
               </p>
             </Jumbotron>
           </Col>
