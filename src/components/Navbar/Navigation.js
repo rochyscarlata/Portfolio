@@ -54,13 +54,13 @@ function Navigation() {
                 </a>
               </li>
               <li className="nav-item">
-                <a to="/" className="nav-links" onClick={closeMobileMenu}>
+                <a href="#projects" className="nav-links" onClick={closeMobileMenu}>
                   {" "}
                   Projects
                 </a>
               </li>
               <li className="nav-item">
-                <a to="/" className="nav-links" onClick={closeMobileMenu}>
+                <a href="#contact" className="nav-links" onClick={closeMobileMenu}>
                   {" "}
                   Contact
                 </a>

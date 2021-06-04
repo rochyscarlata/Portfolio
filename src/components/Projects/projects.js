@@ -22,7 +22,7 @@ function projects() {
     <Container fluid className="projects" id="projects">
       <Fade bottom cascade>
         <section className="heading-section">
-          <h2 className="mb-4 h2">My projects</h2>
+          <h2 className="mb-4 h2" id="projects">My projects</h2>
 
           <p className="p">
             These are some of my projects. The others are in my github profile.

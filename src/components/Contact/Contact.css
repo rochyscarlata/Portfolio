@@ -9,6 +9,8 @@
   padding-left: 10px;
   padding-right: 10px;
   font-family: "Poppins", sans-serif;
+  justify-content: center;
+  align-items: center;
 }
 .formulario{
   text-align: center;
@@ -45,7 +47,10 @@ border-radius: 6px!important;}
 
 /* social media */
 .list{
-  list-style-type: none !important;}
+  list-style-type: none !important;
+  margin-left: 100px !important;
+
+}
   li{
     font-size: 1.5rem !important;
     margin-bottom: 30px;
@@ -96,5 +101,10 @@ border-radius: 6px!important;}
   .form-group {
     padding-left: 0px;
     padding-right: 0px;
+  }
+  .list{
+    list-style-type: none !important;
+    margin-left: 50px !important;
+  
   }
 }

@@ -159,9 +159,23 @@
   .gkFbTA {
     font-size: 2.3rem !important;
   }
+  .parrafito{
+    padding-left: 40px !important;
+  }
 }
 @media screen and (device-width: 320px) {
   .gkFbTA {
     font-size: 2rem !important;
+  }
+}
+@media screen and (device-width: 540px) {
+  .parrafito{
+    margin-left: 40px !important;
+  }
+}
+
+@media screen and (device-width: 414px) {
+  .parrafito{
+    margin-left: 40px !important;
   }
 }
