@@ -171,11 +171,18 @@
 @media screen and (device-width: 540px) {
   .parrafito{
     margin-left: 40px !important;
+    
+  }
+  .gkFbTA {
+    font-size: 2rem !important;
   }
 }
 
 @media screen and (device-width: 414px) {
   .parrafito{
     margin-left: 40px !important;
+  }
+  .gkFbTA {
+    font-size: 2rem !important;
   }
 }
