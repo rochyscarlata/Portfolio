@@ -2,37 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 
-/* .home-container {
-  background-color: fuchsia;
-} */
-/* .tags {
-  color: #515152;
-  position: absolute;
-  bottom: 0;
-  font-style: italic;
-  left: -5rem;
-  font-size: 1rem;
-  font-family: "Space Mono", monospace;
-}
-.top-tags {
-  bottom: auto;
-  top: 0;
-}
 
-.top-tags:after {
-  left: -1.5rem;
-  content: "<body>";
-  font-family: "Space Mono", monospace;
-  color: #515152;
-  font-size: 1rem;
-  position: absolute;
-  margin-left: 2rem;
-}
-@media screen and (max-width: 600px) {
-  .tags {
-    left: 2rem;
-  }
-} */
 
 /*  */
 
@@ -79,9 +49,9 @@
     font-size: 2.5rem;
   }
   .imgrosario {
-    margin-right: 20px !important;
-    width: 330px;
-    height: 500px;
+    margin-left: 50px !important;
+    width: 200px !important;
+    height: 300px !important;
   }
   .contact {
     margin-left: 50px !important;
@@ -131,33 +101,16 @@
 .pre {
   color: black;
 }
-/* .pre::after {
-  content: "</body>";
-  font-family: "Space Mono", monospace;
-  color: #515152;
-  font-size: 1rem;
-  position: absolute;
-  margin-top: 1rem !important;
-  left: -4.5rem;
-} */
 
 .fin {
   color: black;
 }
 
-/* .fin::after {
-  content: "</html>";
-  font-family: "Space Mono", monospace;
-  color: #515152;
-  font-size: 1rem;
-  position: absolute;
-  margin-top: 4rem;
-  left: -6rem;
-} */
+
 
 @media screen and (device-width: 375px) {
   .gkFbTA {
-    font-size: 2.3rem !important;
+    font-size: 2rem !important;
   }
   .parrafito{
     padding-left: 40px !important;
@@ -186,3 +139,4 @@
     font-size: 2rem !important;
   }
 }
+

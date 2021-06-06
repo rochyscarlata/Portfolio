@@ -1,5 +1,5 @@
 import React from "react";
-import Rosario from "../../assets/img/yo.png";
+import Rosario from "../../assets/img/yo3.png";
 import Fade from "react-reveal/Fade";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "./Home.css";
