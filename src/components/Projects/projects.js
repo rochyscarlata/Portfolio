@@ -46,7 +46,13 @@ function projects() {
                 
               </p>
               <p>
-                <Button variant="primary">Learn more</Button>
+              <Button
+                  variant="primary"
+                  target="_blank"
+                  href="https://superheroesview.netlify.app/"
+                >
+                  Live Preview
+                </Button>
               </p>
             </Jumbotron>
           </Col>
