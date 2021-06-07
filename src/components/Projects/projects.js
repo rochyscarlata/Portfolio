@@ -42,7 +42,7 @@ function projects() {
               </Figure>
               <h1>Super Heroes App</h1>
               <p>
-              This is a hero search app, where you can see their characteristics and stats
+              This is a hero search app, where you can see their characteristics and stats, you can enter with any account and password.
                 
               </p>
               <p>
