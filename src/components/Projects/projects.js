@@ -90,7 +90,13 @@ function projects() {
               This is a Personal Finance Tools app that makes it easy to see how much you are spending
               </p>
               <p>
-                <Button variant="primary">Learn more</Button>
+              <Button
+                  variant="primary"
+                  target="_blank"
+                  href="https://budgetappx.netlify.app/"
+                >
+                  Live Preview
+                </Button>
               </p>
             </Jumbotron>
           </Col>
