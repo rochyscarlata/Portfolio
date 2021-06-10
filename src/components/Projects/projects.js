@@ -68,10 +68,15 @@ function projects() {
               </Figure>
               <h1>Movie Time</h1>
               <p>
-              This is a movie search app where you can see all your info
-              </p>
+              This is a movie search application where you can add to a watch list             </p>
               <p>
-                <Button variant="primary">Learn more</Button>
+              <Button
+                  variant="primary"
+                  target="_blank"
+                  href="https://moviespediax.netlify.app/"
+                >
+                  Live Preview
+                </Button>
               </p>
             </Jumbotron>
           </Col>
