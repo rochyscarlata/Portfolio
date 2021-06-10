@@ -164,6 +164,7 @@ function projects() {
               <h1>To do app</h1>
               <p>
               ToDo App is simple and awesome app to organize your tasks with very easy to use interface.
+              Will be ready soon.
               </p>
               <p>
                 <Button variant="primary">Learn more</Button>
