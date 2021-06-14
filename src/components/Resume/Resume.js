@@ -21,7 +21,7 @@ function Resume() {
             <span class="date">2018-2020</span>
             <h2>Superior programming technician</h2>
             <span class="position"></span>
-            <p class="mt-4">Univerisad Tecnologica Nacional</p>
+            <p class="mt-4">Universidad Tecnologica Nacional</p>
           </div>
           <div class="resume-wrap ftco-animate fadeInUp ftco-animated">
             <span class="date">March-April 2021</span>

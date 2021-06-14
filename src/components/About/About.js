@@ -27,7 +27,7 @@ function About() {
                 I am a frontend developer located in Argentina. I've been in the
                 programming world for 3 years, but in frontend development for a
                 year. I like challenges and teamwork.
-                <br></br> Also im a fan of online courses❤.
+                <br></br> Also i am a fan of online courses❤.
               </p>
               <a
                 href={CV}
