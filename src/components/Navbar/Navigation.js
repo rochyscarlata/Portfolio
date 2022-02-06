@@ -26,7 +26,7 @@ function Navigation() {
               <li className="nav-item">
                 <a
                   to="/"
-                  className="nav-links active"
+                  className="nav-links "
                   onClick={closeMobileMenu}
                 >
                   {" "}
