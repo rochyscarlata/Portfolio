@@ -9,7 +9,7 @@ import Contact from "./components/Contact/Contact";
 
 import Footer from "./components/Footer/Footer";
 
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Particles from "react-particles-js";
 import particlesConfig from "./components/config/configParticles";
