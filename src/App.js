@@ -23,7 +23,9 @@ function App() {
           <Particles height="100vh" width="100vw" params={particlesConfig} />
         </div>
         <Navigation />
-        <Home />
+        <Route exact path="/">
+          <Home />
+        </Route>
         <About />
         <Resume />
         <Projects/>
