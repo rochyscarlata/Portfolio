@@ -26,7 +26,7 @@ function Navigation() {
               <li className="nav-item">
                 <a
                   to="/"
-                  className="nav-links "
+                  className="nav-links"
                   onClick={closeMobileMenu}
                 >
                   {" "}
@@ -44,24 +44,17 @@ function Navigation() {
                 </a>
               </li>
               <li className="nav-item">
-                <a
-                  href="#resume"
-                  className="nav-links"
-                  onClick={closeMobileMenu}
-                >
-                  {" "}
+                <a href="#resume" className="nav-links" onClick={closeMobileMenu}>
                   Resume
                 </a>
               </li>
               <li className="nav-item">
                 <a href="#projects" className="nav-links" onClick={closeMobileMenu}>
-                  {" "}
                   Projects
                 </a>
               </li>
               <li className="nav-item">
                 <a href="#contact" className="nav-links" onClick={closeMobileMenu}>
-                  {" "}
                   Contact
                 </a>
               </li>
@@ -74,27 +67,3 @@ function Navigation() {
 }
 
 export default Navigation;
-
-{
-  /* <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" >
-        <Navbar.Brand href="#home"><img
-        src={Logoro}
-        width="250"
-        height="80"
-        className="d-inline-block align-top"
-        alt="Logo ro"
-      /></Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="mr-auto">
-           
-            
-          </Nav>
-          <Nav className="estilos">
-            
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar> */
-}

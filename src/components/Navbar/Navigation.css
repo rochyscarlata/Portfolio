@@ -68,6 +68,10 @@
 .nav-links.active {
   color: #3c2a96;
 }
+a.active{
+  color: #3c2a96;
+
+}
 .nav-links:hover {
   border-bottom: 6px solid #3c2a96;
   transition: all 0.2s ease-out;

@@ -25,9 +25,8 @@ function About() {
               <h2 className="mb-4 h2">About Me</h2>
               <p className="p">
                 I am a frontend developer located in Argentina. I've been in the
-                programming world for 3 years, but in frontend development for a
-                year. I like challenges and teamwork.
-                <br></br> Also i am a fan of online courses❤.
+                programming world for 4 years. I work at JP Morgan & Chase. I like challenges and teamwork.
+                <br></br> 
               </p>
               <a
                 href={CV}
