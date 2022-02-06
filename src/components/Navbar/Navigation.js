@@ -16,7 +16,7 @@ function Navigation() {
       <Fade top>
         <nav className="navbar">
           <div className="navbar-container">
-            <a to="/" className="navbar-logo">
+            <a href="/" className="navbar-logo">
               ROSARIO
             </a>
             <div className="menu-icon" onClick={handleClick}>
@@ -25,7 +25,7 @@ function Navigation() {
             <ul className={click ? "nav-menu active" : "nav-menu"}>
               <li className="nav-item">
                 <a
-                  to="/"
+                  href="/"
                   className="nav-links active"
                   onClick={closeMobileMenu}
                 >
