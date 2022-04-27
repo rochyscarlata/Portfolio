@@ -119,10 +119,11 @@ function projects() {
               </Figure>
               <h1>Ecommerce</h1>
               <p>
-              This is a project for the Coderhouse course that I have not finished yet.
+              This is a project (e-commerce) for the Coderhouse course.
               </p>
               <p>
-                <Button variant="primary">Learn more</Button>
+                <Button variant="primary" target="_blank"
+                  href="https://buynow-scarlata.netlify.app/">Live Preview</Button>
               </p>
             </Jumbotron>
           </Col>
