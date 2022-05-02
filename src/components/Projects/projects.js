@@ -85,8 +85,8 @@ function projects() {
             <Jumbotron>
               <Figure>
                 <Figure.Image
-                  width={171}
-                  height={170}
+                  width={165}
+                  height={162}
                   alt="171x180"
                   src={Stats}
                 />
@@ -157,8 +157,8 @@ function projects() {
             <Jumbotron>
               <Figure>
                 <Figure.Image
-                  width={171}
-                  height={170}
+                  width={180}
+                  height={175}
                   alt="171x180"
                   src={Circclo}
                 />
