@@ -87,13 +87,13 @@ function projects() {
                 <Figure.Image
                   width={165}
                   height={162}
-                  alt="171x180"
+                  alt="Budget"
                   src={Stats}
                 />
               </Figure>
               <h1>Budget app</h1>
               <p>
-              This is a Personal Finance Tools app that makes it easy to see how much you are spending
+              This is a Personal Finance Tools app to see how much you are spending
               </p>
               <p>
               <Button
@@ -163,6 +163,8 @@ function projects() {
                   src={Circclo}
                 />
               </Figure>
+              <br/>
+              <br/>
               <h1>Circclo</h1>
               <p>
               Website for the company Circclo

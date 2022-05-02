@@ -89,14 +89,15 @@
 
 /* -----------btn---------------- */
 
-.contact:hover {
+.contact {
   background-color: #3c2a96 !important;
   color: antiquewhite !important;
+  border-color: #4d3ba5 !important;
 }
-.contact{
+/* .contact{
   border-color: #4d3ba5 !important;
   color: #4d3ba5 !important;
-}
+} */
 /* --------------fin btn----------- */
 .pre {
   color: black;
