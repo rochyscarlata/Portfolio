@@ -32,9 +32,7 @@
   color: rgb(248, 244, 244);
   padding-top: 2rem;
 }
-.heading-section .h2:hover {
-  cursor: pointer !important;
-}
+
 .heading-section .p {
   color: #f5f4f4;
   font-size: 24px;

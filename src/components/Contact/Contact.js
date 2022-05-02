@@ -17,7 +17,8 @@ function Contact() {
         <Col xs={12} md={6} >
           <br></br>
           <ul className="list">
-            <li>
+            <li  href="https://www.linkedin.com/in/rosario-scarlata-153b831a1/"
+                target="_blank">
               <Button
                 variant="primary"
                 className="btn-social"
@@ -28,7 +29,8 @@ function Contact() {
               </Button>{" "}
               Follow me on linkedin
             </li>
-            <li>
+            <li  href="mailto:rosarioscarlata24@gmail.com"
+                target="_blank">
               <Button
                 variant="danger"
                 className="btn-social"
@@ -39,7 +41,8 @@ function Contact() {
               </Button>{" "}
               Lets chat
             </li>
-            <li>
+            <li href="https://github.com/rochyscarlata"
+                target="_blank">
               <Button
                 variant="dark"
                 className="btn-social"
