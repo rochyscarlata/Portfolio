@@ -15,6 +15,7 @@ import Ecom from "../../assets/img/ecommerce.png";
 import Movie from "../../assets/img/popcorn.png";
 import Todo from "../../assets/img/listdo.png";
 import Cotiz from "../../assets/img/cotiz.png";
+import Circclo from "../../assets/img/circclovyn.png"
 
 import "./projects.css";
 function projects() {
@@ -159,16 +160,18 @@ function projects() {
                   width={171}
                   height={170}
                   alt="171x180"
-                  src={Todo}
+                  src={Circclo}
                 />
               </Figure>
-              <h1>To do app</h1>
+              <h1>Circclo</h1>
               <p>
-              ToDo App is simple and awesome app to organize your tasks with very easy to use interface.
-              Will be ready soon.
+              Website for the company Circclo
               </p>
               <p>
-                <Button variant="primary">Learn more</Button>
+                <Button variant="primary" 
+                target="_blank"
+                href="https://circclo-pruebas.netlify.app/"
+                >Live preview</Button>
               </p>
             </Jumbotron>
           </Col>
