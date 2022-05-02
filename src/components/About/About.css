@@ -20,7 +20,7 @@
   color: rgba(41, 41, 41, 0.123);
   z-index: -1;
   font-weight: 900;
-
+  cursor: default !important;
   text-align: center;
 }
 
@@ -28,7 +28,7 @@
   font-size: 5rem !important;
   font-weight: 700;
   font-family: "Poppins", sans-serif;
-
+  cursor: default !important;
   color: rgb(248, 244, 244);
   padding-top: 2rem;
 }
