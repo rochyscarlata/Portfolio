@@ -15,7 +15,7 @@ import Ecom from "../../assets/img/ecommerce.png";
 import Movie from "../../assets/img/popcorn.png";
 import Todo from "../../assets/img/listdo.png";
 import Cotiz from "../../assets/img/cotiz.png";
-import Circclo from "../../assets/img/circclovyn.png"
+import Circclo from "../../assets/img/circclovyn.png";
 
 import "./projects.css";
 function projects() {
@@ -23,7 +23,9 @@ function projects() {
     <Container fluid className="projects" id="projects">
       <Fade bottom cascade>
         <section className="heading-section">
-          <h2 className="mb-4 h2" id="projects">My projects</h2>
+          <h2 className="mb-4 h2" id="projects">
+            My projects
+          </h2>
 
           <p className="p">
             These are some of my projects. The others are in my github profile.
@@ -32,7 +34,7 @@ function projects() {
         <br />
         <Row>
           <Col sm>
-            <Jumbotron>
+            <Jumbotron className="jumbotron">
               <Figure>
                 <Figure.Image
                   width={171}
@@ -43,11 +45,12 @@ function projects() {
               </Figure>
               <h1>Super Heroes App</h1>
               <p>
-              This is a hero search app, where you can see their characteristics and stats, you can enter with any account and password.
-                
+                This is a hero search app, where you can see their
+                characteristics and stats, you can enter with any account and
+                password.
               </p>
               <p>
-              <Button
+                <Button
                   variant="primary"
                   target="_blank"
                   href="https://superheroesview.netlify.app/"
@@ -58,7 +61,7 @@ function projects() {
             </Jumbotron>
           </Col>
           <Col sm>
-            <Jumbotron>
+            <Jumbotron className="jumbotron">
               <Figure>
                 <Figure.Image
                   width={171}
@@ -69,9 +72,11 @@ function projects() {
               </Figure>
               <h1>Movie Time</h1>
               <p>
-              This is a movie search application where you can add to a watch list             </p>
+                This is a movie search application where you can add to a watch
+                list{" "}
+              </p>
               <p>
-              <Button
+                <Button
                   variant="primary"
                   target="_blank"
                   href="https://moviespediax.netlify.app/"
@@ -82,7 +87,7 @@ function projects() {
             </Jumbotron>
           </Col>
           <Col sm>
-            <Jumbotron>
+            <Jumbotron className="jumbotron">
               <Figure>
                 <Figure.Image
                   width={165}
@@ -93,10 +98,11 @@ function projects() {
               </Figure>
               <h1>Budget app</h1>
               <p>
-              This is a Personal Finance Tools app to see how much you are spending
+                This is a Personal Finance Tools app to see how much you are
+                spending
               </p>
               <p>
-              <Button
+                <Button
                   variant="primary"
                   target="_blank"
                   href="https://budgetappx.netlify.app/"
@@ -109,7 +115,7 @@ function projects() {
         </Row>
         <Row>
           <Col sm>
-            <Jumbotron>
+            <Jumbotron className="jumbotron">
               <Figure>
                 <Figure.Image
                   width={171}
@@ -119,26 +125,29 @@ function projects() {
                 />
               </Figure>
               <h1>Ecommerce</h1>
+              <p>This is a project (e-commerce) for the Coderhouse course.</p>
               <p>
-              This is a project (e-commerce) for the Coderhouse course.
-              </p>
-              <p>
-                <Button variant="primary" target="_blank"
-                  href="https://buynow-scarlata.netlify.app/">Live Preview</Button>
+                <Button
+                  variant="primary"
+                  target="_blank"
+                  href="https://buynow-scarlata.netlify.app/"
+                >
+                  Live Preview
+                </Button>
               </p>
             </Jumbotron>
           </Col>
           <Col sm>
-            <Jumbotron>
+            <Jumbotron className="jumbotron">
               <Figure>
                 <Figure.Image
                   width={171}
-                  height={170}
+                  height={160}
                   alt="171x180"
                   src={Cotiz}
                 />
               </Figure>
-              <h1>Calculator cryptocurrency</h1>
+              <h2>Calculator cryptocurrency</h2>
               <p>
                 This is a simple app to find the prices of cryptocurrencies.
               </p>
@@ -154,8 +163,8 @@ function projects() {
             </Jumbotron>
           </Col>
           <Col sm>
-            <Jumbotron>
-              <Figure>
+            <Jumbotron className="jumbotron">
+              <Figure className="mt-5">
                 <Figure.Image
                   width={180}
                   height={175}
@@ -163,18 +172,20 @@ function projects() {
                   src={Circclo}
                 />
               </Figure>
-              <br/>
-              <br/>
+              <br />
+
               <h1>Circclo</h1>
+              <p>Website for the company Circclo</p>
               <p>
-              Website for the company Circclo
+                <Button
+                  variant="primary"
+                  target="_blank"
+                  href="https://circclo-pruebas.netlify.app/"
+                >
+                  Live preview
+                </Button>
               </p>
-              <p>
-                <Button variant="primary" 
-                target="_blank"
-                href="https://circclo-pruebas.netlify.app/"
-                >Live preview</Button>
-              </p>
+              <br />
             </Jumbotron>
           </Col>
         </Row>

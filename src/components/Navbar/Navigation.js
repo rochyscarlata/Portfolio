@@ -16,7 +16,7 @@ function Navigation() {
       <Fade top>
         <nav className="navbar">
           <div className="navbar-container">
-            <a href="/" className="navbar-logo">
+            <a href="#home" className="navbar-logo">
               ROSARIO
             </a>
             <div className="menu-icon" onClick={handleClick}>
@@ -25,8 +25,8 @@ function Navigation() {
             <ul className={click ? "nav-menu active" : "nav-menu"}>
               <li className="nav-item">
                 <a
-                  href="/"
-                  className="nav-links active"
+                  href="#home"
+                  className="nav-links "
                   onClick={closeMobileMenu}
                 >
                   {" "}
@@ -44,17 +44,29 @@ function Navigation() {
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#resume" className="nav-links" onClick={closeMobileMenu}>
+                <a
+                  href="#resume"
+                  className="nav-links"
+                  onClick={closeMobileMenu}
+                >
                   Resume
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#projects" className="nav-links" onClick={closeMobileMenu}>
+                <a
+                  href="#projects"
+                  className="nav-links"
+                  onClick={closeMobileMenu}
+                >
                   Projects
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#contact" className="nav-links" onClick={closeMobileMenu}>
+                <a
+                  href="#contact"
+                  className="nav-links"
+                  onClick={closeMobileMenu}
+                >
                   Contact
                 </a>
               </li>

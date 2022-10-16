@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 // import { Container, Row, Col, Button } from "react-bootstrap";
-import CV from "../../assets/docs/en-CV-ROSARIOSCARLATA.pdf";
+import CV from "../../assets/docs/cv-RosarioScarlata.pdf";
 
 import "./Resume.css";
 function Resume() {
@@ -29,7 +29,6 @@ function Resume() {
             <span class="position"></span>
             <p class="mt-4">intensive course in Educacion IT</p>
           </div>
-         
         </div>
 
         <div class="col-md-6">
@@ -47,16 +46,15 @@ function Resume() {
               <br></br>
             </p>
           </div>
-          
         </div>
       </div>
-      <div class="row justify-content-center mt-5">
+      <div class="row justify-content-center mt-4 mb-4">
         <div class="col-md-6 text-center ftco-animate fadeInUp ftco-animated">
           <p>
             <a
               href={CV}
               target="_blank"
-              download="en-CV-ROSARIOSCARLATA"
+              download="cv-RosarioScarlata"
               class="buttonn button--about-me"
             >
               Download CV
@@ -65,8 +63,6 @@ function Resume() {
         </div>
       </div>
     </div>
-
-   
   );
 }
 

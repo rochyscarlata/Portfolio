@@ -5,7 +5,7 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 import "./Home.css";
 function Home() {
   return (
-    <Container className="home-container">
+    <Container className="home-container" id="home">
       <Row>
         <Col xs="12" sm={6}>
           <Fade right>
@@ -43,13 +43,17 @@ function Home() {
             <div className="parrafito">
               <p>Frontend, React</p>
             </div>
-            <Button variant="outline-dark" size="lg" className="contact" href="#contact">
+            <Button
+              variant="outline-dark"
+              size="lg"
+              className="contact"
+              href="#contact"
+            >
               Contact me
             </Button>
             <div className="pre">
               <p>Front End, React</p>
             </div>
-            
           </Fade>
         </Col>
         <Col xs="12" sm={6}>

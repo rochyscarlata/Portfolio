@@ -9,6 +9,7 @@
   position: sticky;
   top: 0;
   z-index: 999;
+  position: sticky !important;
 }
 
 .navbar-container {
@@ -52,6 +53,7 @@
 
 .nav-item {
   height: 80px;
+  margin-top: 20px;
 }
 
 .nav-links {
@@ -73,11 +75,9 @@ a.active{
 
 }
 .nav-links:hover {
-  border-bottom: 6px solid #3c2a96;
-  transition: all 0.2s ease-out;
+  border-bottom: 3px solid #3c2a96;
   color: #3c2a96;
-  /* line-height: 45px; */
-  font-weight: 600 !important;
+  font-weight: 500 !important;
   text-decoration: none !important;
 }
 .navbar.scroll {
