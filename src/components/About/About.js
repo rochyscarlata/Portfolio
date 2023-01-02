@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./About.css";
 import imgAbout from "../../assets/img/imagecola.png";
-import CV from "../../assets/docs/cv-RosarioScarlata.pdf";
+import CV from "../../assets/docs/CV-RosarioScarlata.pdf";
 import Fade from "react-reveal/Fade";
 
 function About() {

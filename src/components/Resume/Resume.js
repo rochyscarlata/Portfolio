@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 // import { Container, Row, Col, Button } from "react-bootstrap";
-import CV from "../../assets/docs/cv-RosarioScarlata.pdf";
+import CV from "../../assets/docs/CV-RosarioScarlata.pdf";
 
 import "./Resume.css";
 function Resume() {
